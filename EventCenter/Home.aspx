@@ -9,7 +9,7 @@
     <div class="col-sm-10">
         <p>
             <br />
-            Welcome to The Right Place. We take pride in being an event center that can cater to many needs.
+            Welcome to The Right Place! We take pride in being an event center that can cater to many needs.
         Please click any of the links above to read about our staff, past events and clients, 
         our various amenities and the room reservation process. 
         </p>

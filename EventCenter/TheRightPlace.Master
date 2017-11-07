@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TheRightPlace.master.cs" Inherits="Event_Center.TheRightPlace"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/TheRightPlace.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1> The Right Place</h1>
+        </header>
+        <div style="text-align:center">
+        <div class="topnav">
+            <a href="Home.aspx">Homepage</a>
+            <a href="Staff.aspx">Staff</a>
+            <a href="Amenities.aspx">Amenities</a>
+            <a href="Testimonials.aspx">Testimonials</a>
+            <a href="Reservations.aspx">Reservations</a>
+        </div>
+        </div>
+        
+        <main> 
+            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </main>
+        <footer>
+
+
+        </footer>
+   
+    </form>
+</body>
+</html>

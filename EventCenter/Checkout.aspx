@@ -34,7 +34,7 @@
             <td></td>
         </tr>
         <tr>
-            <td class="auto-style3"><asp:Label ID="lDate" runat="server" Text=""></asp:Label>ldate</td>
+            <td class="auto-style3"><asp:Label ID="lDate" runat="server" Text="date"></asp:Label>ldate</td>
             <td><asp:Label ID="lPrice" runat="server" Text=""></asp:Label>lprice</td>
         </tr>
         <tr>

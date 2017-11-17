@@ -13,63 +13,57 @@
 
     <div class="col-sm-1"></div>
     <br />
-    <div class="col-sm-10">
+    <div class="col-sm-10" style="text-align:center" >
         <p>
             Here at The Right Place we take pride in selecting staff with diverse backgrounds. 
             Each staff member is put through a strenuous interviewing process and picked based on the relevance of their qualifications.
-            We garuntee that if you choose us, you will be in great hands!
-        
+            We guarantee that if you choose us, you will be in great hands!     
         </p>
     </div>
-    <div class="col-sm-1"></div>
-    <div style="text-align: center">
-        <table class="nav-justified">
-            <tr>
-                <!-- Add Custom Css or bootsrap for styling to all elements
-                Add background colors etc.-->
-                <td class="auto-style1">
-                    <br />
-                    <br />
-                    Staff Name<br />
-                    Short discription<br />
-                    <br />
-                </td>
-                <td>staff img</td>
-
-            </tr>
-            <tr>
-                <td class="auto-style1">
-                    <br />
-                    <br />
-                    staff name<br />
-                    short description<br />
-                    <br />
-                </td>
-                <td>staff img</td>
-            </tr>
-            <tr>
-                <td class="auto-style1">
-                    <br />
-                    <br />
-                    staff name<br />
-                    short description<br />
-                    <br />
-                </td>
-                <td>staff img</td>
-            </tr>
-            <tr>
-                <td class="auto-style1">
-                    <br />
-                    <br />
-                    staff name<br />
-                    short description<br />
-                    <br />
-                </td>
-                <td>staff img</td>
-            </tr>
-        </table>
-
-    </div>
+        
+            <br />
+            <div class="col-sm-12" style="text-align: center">
+                <h2>Staff</h2>
+            </div>
+    <div class="row"style="padding: 0 0 0 125px">
+            <br />
+            <h3>Gary Rogue</h3>
+            <i>Meeting Coordinator</i>
+            <br />
+            <br />
+            <div class="col-sm-6"style="text-align: center">
+                <img src="photos/Peter2.jpg" class="img-responsive" />
+            </div>
+            <h3>Mika Myers</h3>
+            <i>Small Event Coordianator</i>
+            <br />
+            <br />
+            <div class="col-sm-6"style="text-align: center">
+                <img src="photos/Peter2.jpg" class="img-responsive" />
+            </div>
+            <h3>Paul Sikes</h3>
+            <i>Medium/Large Event Coordinator</i>
+            <br />
+            <br />
+            <div class="col-sm-6"style="text-align: center">
+                <img src="photos/Peter2.jpg" class="img-responsive" />
+            </div>
+            <h3>Felicia Stokes</h3>
+            <i>Wedding Coordinator</i>
+            <br />
+            <br />
+            <div class="col-sm-6"style="text-align: center">
+                <img src="photos/Peter2.jpg" class="img-responsive" />
+            </div>
+            <h3>Cade Wilson</h3>
+            <i>Catering Coordinator</i>
+            <br />
+            <br />
+            <div class="col-sm-6"style="text-align: center">
+                <img src="photos/Peter2.jpg" class="img-responsive" />
+            </div>
+        </div>
+    
 
 </asp:Content>
 

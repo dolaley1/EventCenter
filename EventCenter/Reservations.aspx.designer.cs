@@ -13,30 +13,21 @@ namespace Event_Center {
     public partial class Reservations {
         
         /// <summary>
-        /// linkAuditorium control.
+        /// ddlReservation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkAuditorium;
+        protected global::System.Web.UI.WebControls.DropDownList ddlReservation;
         
         /// <summary>
-        /// linkConferenceRoom control.
+        /// Image1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkConferenceRoom;
-        
-        /// <summary>
-        /// linkClassRoom control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkClassRoom;
+        protected global::System.Web.UI.WebControls.Image Image1;
     }
 }

@@ -12,37 +12,16 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="mainPlaceHolder">
     <div class ="row">
-        <h1> Reserve a Room</h1>
+        <h1>Reserve A Room</h1>
     </div>
-    
-
-
-
-    <table class="nav-justified">
-        <tr>
-            <td class="auto-style1">Room Description</td>
-            <td class="auto-style1">img</td>
-            <td class="auto-style1">
-                <asp:LinkButton ID="linkAuditorium" runat="server" OnClick="LinkButton1_Click">Dates Available</asp:LinkButton>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style1">Room Descripton</td>
-            <td class="auto-style1">img</td>
-            <td class="auto-style1">
-                <asp:LinkButton ID="linkConferenceRoom" runat="server" OnClick="LinkButton2_Click">Dates Available</asp:LinkButton>
-            </td>
-        </tr>
-        <tr>
-            <td class="auto-style1">Room Description</td>
-            <td class="auto-style1">img</td>
-            <td class="auto-style1">
-                <asp:LinkButton ID="linkClassRoom" runat="server"  OnClick="LinkButton3_Click">Dates Available</asp:LinkButton>
-            </td>
-        </tr>
-    </table>
-    
-
-
+    <br /><br />
+    <div class="col-sm-3" style="padding: 0 0 0 50px">
+        <asp:DropDownList ID="ddlReservation" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged"></asp:DropDownList>
+        <!--Insert SQL data source-->
+    </div>
+    <div class="col-sm-3" style="padding: 0 0 0 50px">
+        <asp:Image ID="Image1" runat="server" Height="223px" ImageUrl="~/Img/noselection.png" Width="278px" />
+        <!--Insert SQL data source-->
+    </div>
 
 </asp:Content>

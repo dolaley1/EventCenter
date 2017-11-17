@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 
 namespace Event_Center
 {
@@ -28,6 +29,14 @@ namespace Event_Center
             Response.Redirect("~/Checkout.aspx");
         }
 
+        protected void ddlReservation_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataView myTable = (DataView)SqlDataSource2.Select(DataSourceSelectArguments.Empty);
+            myTable.RowFilter = $"CategoryID = {ddlReservation.SelectedValue}";
+            DataRowView row = myTable[0];
+            string strname1 = row["ImgFile"].ToString();
+            Image1.ImageUrl = "~/Img/" + strname1;
+        }
     }
 
 }

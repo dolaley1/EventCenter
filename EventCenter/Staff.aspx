@@ -5,7 +5,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 404px;
-        }
+                      }
     </style>
 </asp:Content>
 

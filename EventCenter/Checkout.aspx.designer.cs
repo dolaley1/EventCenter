@@ -22,31 +22,31 @@ namespace Event_Center {
         protected global::System.Web.UI.WebControls.Label lRoom;
         
         /// <summary>
-        /// lCapacity control.
+        /// lCustomer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lCapacity;
+        protected global::System.Web.UI.WebControls.Label lCustomer;
         
         /// <summary>
-        /// lGuests control.
+        /// lArrivalDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lGuests;
+        protected global::System.Web.UI.WebControls.Label lArrivalDate;
         
         /// <summary>
-        /// lDate control.
+        /// lLeaveDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lDate;
+        protected global::System.Web.UI.WebControls.Label lLeaveDate;
         
         /// <summary>
         /// lPrice control.
@@ -58,12 +58,48 @@ namespace Event_Center {
         protected global::System.Web.UI.WebControls.Label lPrice;
         
         /// <summary>
-        /// Button1 control.
+        /// lEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Label lEmail;
+        
+        /// <summary>
+        /// lPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lPhone;
+        
+        /// <summary>
+        /// lRequests control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lRequests;
+        
+        /// <summary>
+        /// bPlaceReservation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button bPlaceReservation;
+        
+        /// <summary>
+        /// bEdit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button bEdit;
     }
 }

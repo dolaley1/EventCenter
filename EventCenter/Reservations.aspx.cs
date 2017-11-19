@@ -15,27 +15,31 @@ namespace Event_Center
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Checkout.aspx");
-        }
-
-        protected void LinkButton2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Checkout.aspx");
-        }
-        protected void LinkButton3_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Checkout.aspx");
-        }
 
         protected void ddlReservation_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataView myTable = (DataView)SqlDataSource2.Select(DataSourceSelectArguments.Empty);
-            myTable.RowFilter = $"CategoryID = {ddlReservation.SelectedValue}";
+            myTable.RowFilter = $"roomID = {ddlReservation.SelectedValue}";
             DataRowView row = myTable[0];
-            string strname1 = row["ImgFile"].ToString();
-            Image1.ImageUrl = "~/Img/" + strname1;
+            string strname1 = row["filename"].ToString();
+            Image1.ImageUrl = "~/Images/" + strname1;
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                Session["room"] = ddlReservation.Text;
+                Session["arrivaldate"] = txtArrivalDate.Text;
+                Session["departuredate"] = txtDepartureDate.Text;
+                Session["lastname"] = txtLastName.Text;
+                Session["firstname"] = txtFirstName.Text;
+                Session["requests"] = txtSpecialRequests.Text;
+                Session["phone"] = txtPhone.Text;
+                Session["email"] = txtEmail.Text;
+                Response.Redirect("~/Checkout.aspx");
+            }
+
         }
     }
 

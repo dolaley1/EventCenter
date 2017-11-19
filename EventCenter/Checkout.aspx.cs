@@ -11,7 +11,18 @@ namespace Event_Center
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lRoom.Text = Session["room"].ToString();
+            lArrivalDate.Text = Session["arrivaldate"].ToString();
+            lLeaveDate.Text = Session["departuredate"].ToString();
+            lCustomer.Text = Session["firstname"].ToString() + "" + Session["lastname"].ToString();
+            lRequests.Text = Session["requests"].ToString();
+            lPhone.Text = Session["phone"].ToString();
+            lEmail.Text = Session["email"].ToString();
+        }
 
+        protected void bEdit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Reservations.aspx");
         }
     }
 }

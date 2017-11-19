@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.1.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -100,13 +104,26 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\TheRightPlace.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\auditorium.jpg" />
+    <Content Include="Images\ballroom.jpg" />
+    <Content Include="Images\boardroom.jpg" />
+    <Content Include="Images\catering.jpg" />
+    <Content Include="Images\changeroom.jpg" />
+    <Content Include="Images\courtyard.jpg" />
+    <Content Include="Images\dividerroom.jpg" />
+    <Content Include="Images\noimg.jpg" />
+    <Content Include="Images\presentationroom.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config" />
+    <None Include="scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="scripts\jquery-3.1.1.js" />
+    <Content Include="scripts\jquery-3.1.1.min.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.js" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="TheRightPlace.Master" />
     <Content Include="bin\Event Center.dll.config" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\Event Center.csprojResolveAssemblyReference.cache" />
-    <Content Include="scripts\jquery-1.9.1.min.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
@@ -115,6 +132,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -152,9 +171,6 @@
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <None Include="scripts\jquery-1.9.1-vsdoc.js" />
-    <Content Include="scripts\jquery-1.9.1.js" />
-    <Content Include="scripts\jquery-1.9.1.min.js" />
     <Content Include="Staff.aspx" />
     <Content Include="Testimonials.aspx" />
     <Content Include="Web.config" />
@@ -216,7 +232,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\roslyn\" />
-    <Folder Include="Images\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="photos\" />
   </ItemGroup>

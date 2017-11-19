@@ -20,34 +20,38 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="MainPlaceHolder">
 
+    <div class="col-sm-3">
+        <br /><br />
+        <asp:Label ID="lRoom" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lCustomer" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lArrivalDate" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lLeaveDate" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lPrice" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lEmail" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lPhone" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lRequests" runat="server" Text=""></asp:Label>
+        
+    </div>
+    <div class="col-sm-3">
+        <br />
+        <asp:Button ID="bPlaceReservation" runat="server" Text="Place Reservation" />
+       &nbsp &nbsp 
+        <asp:Button ID="bEdit" runat="server" Text="Edit" OnClick="bEdit_Click" />
+    </div>
+   
+    
+    
+    
 
-    <table class="nav-justified">
-        <tr>
-            <td class="auto-style2">
-                <asp:Label ID="lRoom" runat="server" Text="" ></asp:Label>lroom</td>
-            <td class="auto-style1">
-                <asp:Label ID="lCapacity" runat="server" Text=""></asp:Label>lcapacity</td>
-        </tr>
-        <tr>
-            <td class="auto-style3">
-                <asp:Label ID="lGuests" runat="server" Text=""></asp:Label>lguests</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="auto-style3"><asp:Label ID="lDate" runat="server" Text="date"></asp:Label>ldate</td>
-            <td><asp:Label ID="lPrice" runat="server" Text=""></asp:Label>lprice</td>
-        </tr>
-        <tr>
-            <td class="auto-style3"></td>
-            <td>
-                
-            </td>
-        </tr>
-        <tr>
-            <td><asp:Button ID="Button1" runat="server" Text="Place Reservation" /></td>
-            <td></td>
-        </tr>
-    </table>
+
+
 
 
 </asp:Content>

@@ -49,7 +49,7 @@
     </div>
     <div class="col-sm-3">
         <br />
-        <asp:Button ID="bPlaceReservation" runat="server" Text="Place Reservation" />
+        <asp:Button ID="bPlaceReservation" runat="server" Text="Place Reservation" OnClick="bPlaceReservation_Click" />
        &nbsp &nbsp 
         <asp:Button ID="bEdit" runat="server" Text="Edit" OnClick="bEdit_Click" />
     </div>

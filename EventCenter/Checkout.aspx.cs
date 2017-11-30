@@ -38,5 +38,10 @@ namespace Event_Center
             Session["email"] = lEmail.Text; 
             Response.Redirect("~/Reservations.aspx");
         }
+
+        protected void bPlaceReservation_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Home.aspx");
+        }
     }
 }

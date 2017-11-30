@@ -44,6 +44,7 @@ namespace Event_Center
                 else
                 {
                     ddlReservation.SelectedValue = Session["room"].ToString();
+                    ddlReservation.DataBind();
                     if (Session["arrivaldate"] != null)
                         txtArrivalDate.Text = Session["arrivaldate"].ToString();
                     if (Session["departuredate"] != null)
@@ -82,7 +83,7 @@ namespace Event_Center
             {
                 DateTime leaveDate = Convert.ToDateTime(txtDepartureDate.Text);
                 DateTime startDate = Convert.ToDateTime(txtArrivalDate.Text);
-                Session["room"] = ddlReservation.SelectedItem;
+                Session["room"] = ddlReservation.SelectedValue;
                 Session["arrivaldate"] = txtArrivalDate.Text;
                 Session["departuredate"] = txtDepartureDate.Text;
                 Session["lastname"] = txtLastName.Text;

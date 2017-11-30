@@ -22,20 +22,28 @@
 
     <div class="col-sm-3">
         <br /><br />
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Room Number: "></asp:Label>
         <asp:Label ID="lRoom" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Customer Name: "></asp:Label>
         <asp:Label ID="lCustomer" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label3" runat="server" Font-Bold="True" Text="Arrival Date: "></asp:Label>
         <asp:Label ID="lArrivalDate" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label4" runat="server" Font-Bold="True" Text="Departure Date: "></asp:Label>
         <asp:Label ID="lLeaveDate" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label5" runat="server" Font-Bold="True" Text="Price: $ "></asp:Label>
         <asp:Label ID="lPrice" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label6" runat="server" Font-Bold="True" Text="Email: "></asp:Label>
         <asp:Label ID="lEmail" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="Phone Number: "></asp:Label>
         <asp:Label ID="lPhone" runat="server" Text=""></asp:Label>
         <br />
+        <asp:Label ID="Label8" runat="server" Font-Bold="True" Text="Special Requests: "></asp:Label>
         <asp:Label ID="lRequests" runat="server" Text=""></asp:Label>
         
     </div>

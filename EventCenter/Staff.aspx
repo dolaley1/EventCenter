@@ -13,7 +13,7 @@
 
     <div class="col-sm-1"></div>
     <br />
-    <div class="col-sm-10" style="text-align:center" >
+    <div class="col-sm-12" style="text-align:center">
         <p>
             Here at The Right Place we take pride in selecting staff with diverse backgrounds. 
             Each staff member is put through a strenuous interviewing process and picked based on the relevance of their qualifications.

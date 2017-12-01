@@ -30,15 +30,21 @@
     color: blue;
 }
 
-.p {
-    text-align: center;
-    width:300px;
+h1{
     color: black;
-    margin-left: 500px;
-    margin-right: 500px; 
 }
 
 .h2 {
     text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+header{
+    background-color:orangered;
+}
+
+p{
+    border-style:groove;
+    border-color: lightslategrey;
+    text-align:center;
+}

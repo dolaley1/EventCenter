@@ -5,17 +5,14 @@
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="MainPlaceHolder">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-10">
+    <br />
+    <div class="col-sm-12">  
         <p>
-            <br />
-            Welcome to The Right Place! We take pride in being an event center that can cater to many needs.
+        Welcome to The Right Place! We take pride in being an event center that can cater to many needs.
         Please click any of the links above to read about our staff, past events and clients, 
         our various amenities and the room reservation process. 
         </p>
     </div>
-    <div class="col-sm-1"></div>
-
     <div class="row">
         <div class="col-sm-6">
             <img src="Images/weddin.png" class="img-responsive" />

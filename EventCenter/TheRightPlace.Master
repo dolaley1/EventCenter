@@ -17,7 +17,7 @@
         </header>
         <div style="text-align:center">
         <div class="topnav">
-            <a href="Home.aspx">Homepage</a>
+            <a href="Home.aspx">Home</a>
             <a href="Staff.aspx">Staff</a>
             <a href="Amenities.aspx">Amenities</a>
             <a href="Testimonials.aspx">Testimonials</a>

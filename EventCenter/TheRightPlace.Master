@@ -25,10 +25,13 @@
         </div>
         </div>
         
-        <main> 
-            <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
-        
-            </asp:ContentPlaceHolder>
+        <main>
+            
+                <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+
+          
+           
         </main>
         <footer>
 

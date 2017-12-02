@@ -17,6 +17,15 @@ namespace Event_Center
             int days = Convert.ToInt32(day);
             int totalPrice = days * price;
             lRoom.Text = Session["room"].ToString();
+            if (lRoom.Text == "0") { lRoom.Text = "Board Room"; }
+            if (lRoom.Text == "1") { lRoom.Text = "Presentation Room"; }
+            if (lRoom.Text == "2") { lRoom.Text = "Large Slider Room"; }
+            if (lRoom.Text == "3") { lRoom.Text = "Auditorium"; }
+            if (lRoom.Text == "4") { lRoom.Text = "Ballroom"; }
+            if (lRoom.Text == "5") { lRoom.Text = "Courtyard"; }
+            if (lRoom.Text == "6") { lRoom.Text = "Changeroom"; }
+            if (lRoom.Text == "7") { lRoom.Text = "Catering Add-On"; }
+            if (lRoom.Text == "8") { lRoom.Text = "No Room Selected."; }    
             lArrivalDate.Text = Session["arrivaldate"].ToString();
             lLeaveDate.Text = Session["departuredate"].ToString();
             lCustomer.Text = Session["firstname"].ToString() + " " + Session["lastname"].ToString();
@@ -28,7 +37,9 @@ namespace Event_Center
 
         protected void bEdit_Click(object sender, EventArgs e)
         {
-            Session["room"] = lRoom.Text;
+            Session["room"] = 9;
+
+
             Session["arrivaldate"] = lArrivalDate.Text;
             Session["departuredate"] = lLeaveDate.Text;
             Session["lastname"] = Session["lastname"];
@@ -41,7 +52,7 @@ namespace Event_Center
 
         protected void bPlaceReservation_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Home.aspx");
+            lblOrder.Visible = true;
         }
     }
 }

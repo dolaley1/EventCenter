@@ -31,20 +31,56 @@
 }
 
 h1{
-    color: black;
+    color: white;
+    background-color: orangered;
 }
 
-.h2 {
+h2 {
+    color: white;
     text-align:center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background-color: orangered;
+
+}
+
+h3 {
+    color: white;
+    background-color: orangered;
 }
 
 header{
     background-color:orangered;
 }
 
-p{
-    border-style:groove;
+p {
+    color: white;
+    border-style: groove;
     border-color: lightslategrey;
-    text-align:center;
+    text-align: center;
+    background-color: orangered;
 }
+
+i {
+    color: white;
+    background-color: orangered;
+}
+
+figcaption {
+    color: white;
+    background-color: orangered;
+    border-style: groove;
+    border-color: lightslategrey;
+}
+
+label {
+border-style: double;
+border-color:gold;
+color: black;
+background-color: white;
+}
+
+Button {
+    text-align:right;
+    border-style:dashed;
+    border-color: red
+}
+

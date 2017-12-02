@@ -2,6 +2,11 @@
     MasterPageFile="~/TheRightPlace.Master" ClientIDMode="Static" %>
 
 <asp:Content ContentPlaceHolderID="headPlaceHolder" runat="server">
+<style type="text/css">
+        body {
+            background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/05/Awesome-Gradient-Background-.jpg');
+        }
+    </style>
 </asp:Content>
 
 <asp:Content runat="server" ContentPlaceHolderID="MainPlaceHolder">

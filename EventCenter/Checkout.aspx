@@ -2,7 +2,11 @@
     MasterPageFile="~/TheRightPlace.Master" ClientIDMode="Static" %>
 
 <asp:Content runat="server" ContentPlaceHolderID="headPlaceHolder">
-
+<style type="text/css">
+        body {
+            background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/05/Awesome-Gradient-Background-.jpg');
+        }
+    </style>
     <style type="text/css">
         .auto-style1 {
             height: 20px;
@@ -20,9 +24,9 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="MainPlaceHolder">
 
-    <div class="col-sm-3">
+    <div class="col-sm-3" style="background-color: yellow">
         <br /><br />
-        <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Room Number: "></asp:Label>
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Room Name: "></asp:Label>
         <asp:Label ID="lRoom" runat="server" Text=""></asp:Label>
         <br />
         <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Customer Name: "></asp:Label>
@@ -53,6 +57,16 @@
        &nbsp &nbsp 
         <asp:Button ID="bEdit" runat="server" Text="Edit" OnClick="bEdit_Click" />
     </div>
+   
+    
+    
+    
+
+
+
+
+
+    <asp:Label ID="lblOrder" runat="server" BackColor="Blue" ForeColor="White" Text="Your reservation has been sent. We will contact you within 48 hours." Visible="False"></asp:Label>
    
     
     

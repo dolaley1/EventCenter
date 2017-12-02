@@ -29,9 +29,9 @@ namespace Event_Center
             else if (ddlReservation.SelectedIndex == 6)
             { lblPrice.Text = "25"; }
             else if (ddlReservation.SelectedIndex == 7)
-            { lblPrice.Text = "0. Select if you would like this as an add-on with previous request."; }
+            { lblPrice.Text = "0"; }
             else if (ddlReservation.SelectedIndex == 8)
-            { lblPrice.Text = "0."; }
+            { lblPrice.Text = "0"; }
 
             if (!IsPostBack)
 
@@ -80,10 +80,11 @@ namespace Event_Center
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (IsValid)
+
             {
                 DateTime leaveDate = Convert.ToDateTime(txtDepartureDate.Text);
                 DateTime startDate = Convert.ToDateTime(txtArrivalDate.Text);
-                Session["room"] = ddlReservation.SelectedValue;
+                Session["room"] = ddlReservation.SelectedIndex;
                 Session["arrivaldate"] = txtArrivalDate.Text;
                 Session["departuredate"] = txtDepartureDate.Text;
                 Session["lastname"] = txtLastName.Text;
@@ -95,6 +96,8 @@ namespace Event_Center
                 Session["numDays"] = (leaveDate - startDate).TotalDays;
                 Response.Redirect("~/Checkout.aspx");
             }
+
+
 
         }
     }

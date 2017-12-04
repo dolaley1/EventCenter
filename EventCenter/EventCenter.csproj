@@ -124,13 +124,7 @@
     <Content Include="Images\paulsikes.png" />
     <Content Include="Images\presentationroom.jpg" />
     <Content Include="Images\rdjr.jpg" />
-    <Content Include="obj\Debug\TempPE\Event Center.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\TempPE\Event Center.dll" />
-    <Content Include="obj\Debug\TempPE\Event Center.pdb" />
     <Content Include="packages.config" />
-    <Content Include="obj\Debug\TempPE\build.force" />
-    <Content Include="obj\Debug\TempPE\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\TempPE\Event Center.csprojResolveAssemblyReference.cache" />
     <None Include="Properties\PublishProfiles\EventCenter20171128024853 - Web Deploy.pubxml" />
     <None Include="scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="scripts\jquery-3.1.1.js" />
@@ -208,12 +202,6 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="obj\Debug\TempPE\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TempPE\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TempPE\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reservations.aspx.cs">
       <DependentUpon>Reservations.aspx</DependentUpon>
@@ -246,6 +234,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\roslyn\" />
+    <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="photos\" />
   </ItemGroup>
   <PropertyGroup>
